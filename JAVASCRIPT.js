@@ -1,0 +1,25 @@
+// const country = 'India';
+// const continent = 'Asia';
+// let population = 130;
+// console.log(country);
+// console.log(continent);
+// console.log(population);
+// const isIsland = false; 
+// const language = 'hindi';
+// console.log(typeof isIsland);
+// console.log(typeof language);
+// console.log(typeof country);
+// console.log(typeof continent);
+// console.log(typeof population);
+// console.log(typeof null);
+
+const markHeight = 1.69;
+let markWeight = 78;
+const johnHeight = 1.95;
+let johnWeight = 92;
+let markBMI = markWeight/(markHeight * markHeight);
+console.log(markBMI);
+let johnBMI = johnWeight / (johnHeight * johnHeight);
+console.log(johnWeight / (johnHeight * johnHeight));
+let markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
